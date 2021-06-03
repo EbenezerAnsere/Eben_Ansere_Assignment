@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    /* background-image: url(images/StudentsEdited.jpg);
+    min-height: 100vh; */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left {
+    background-image: url(images/height.jpg);
+    background-position: -370px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.middle {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: white;
+    /* transform: translate(-50%, -50%); */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.right {
+    background-image: url(images/weight.jpg);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600px;
+}
+
+text {
+    text-align: left;
+    margin-left: 150px;
+}
+
+#w,
+#h {
+    color: #00587a;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+#result {
+    height: 50px;
+    color: black;
+}
+
+p {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #00587a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input {
+    border: 2px solid blue;
+    border-radius: 4px;
+}
+
+button {
+    color: #00587a;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
